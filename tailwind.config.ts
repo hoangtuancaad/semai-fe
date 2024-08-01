@@ -8,6 +8,18 @@ const config: Config = {
     ],
     theme: {
         extend: {
+            colors: {
+                primary: {
+                    DEFAULT: "#ec4899",
+                    400: "#f472b6",
+                },
+                error: {
+                    DEFAULT: "#ef4444",
+                },
+                link: {
+                    DEFAULT: "#3b82f6",
+                },
+            },
             backgroundImage: {
                 "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
                 "gradient-conic":
