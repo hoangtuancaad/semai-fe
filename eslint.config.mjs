@@ -45,7 +45,6 @@ const eslintConfig = [
             "@typescript-eslint/consistent-type-definitions": "off",
             "@typescript-eslint/no-empty-function": "off",
             "@typescript-eslint/no-unused-expressions": "off",
-            "@typescript-eslint/no-empty-object-type": "off",
         },
     },
 
